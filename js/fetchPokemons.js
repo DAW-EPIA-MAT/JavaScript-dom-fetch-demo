@@ -4,7 +4,7 @@ export const fetchPokemons = () => {
   $message.textContent = `Fetching pokemons...`;
 
   return globalThis
-    .fetch("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=25")
+    .fetch("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=10")
 
     .then((response) => {
       return response.json();
