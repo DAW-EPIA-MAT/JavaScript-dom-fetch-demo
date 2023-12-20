@@ -7,8 +7,9 @@ const $list = globalThis.document.querySelector(".main__list");
 $button.addEventListener("click", function () {
   $list.classList.remove("hidden");
 
-  // fetchPokemons().then((data) => {
-  fetchPokemons().then(({ pokemons, total }) => {
+  fetchPokemons().then((parsedData) => {
+    const { pokemons, total } = parsedData; // object destructuring
+
     $message.textContent = `Total: ${total} pokemons`;
 
     pokemons.map((pokemon) => {
