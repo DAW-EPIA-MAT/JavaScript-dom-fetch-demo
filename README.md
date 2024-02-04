@@ -7,4 +7,6 @@
 
 Fetch and Dom API demo consuming Pokemon API
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e4aed4de-b867-425c-ba47-404a7c223639/deploy-status)](https://app.netlify.com/sites/javascript-fetch-demo/deploys)
+
 Deploy: https://javascript-fetch-dom-api-demo.netlify.app/ [↗]
